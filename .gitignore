@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
@@ -21,3 +22,17 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+=======
+# Build
+build
+
+# Dependencies
+node_modules
+
+# Editor files
+.idea
+.vscode
+
+# Miscellaneous
+.DS_Store
+>>>>>>> Add initial project structure with SSR for ReactJS
