@@ -30,13 +30,9 @@
         "module": "es6",
         "noImplicitAny": true,
         "removeComments": true,
+        "moduleResolution": "node",
         "jsx": "react",
-        "baseUrl": ".",
-        "paths": {
-            "common": ["./src/common"],
-            "client": ["./src/client"],
-            "server": ["./src/server"],
-        }
+        "baseUrl": "./src"
     }
 >>>>>>> Add initial project structure with SSR for ReactJS
 }
