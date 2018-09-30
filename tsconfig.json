@@ -32,7 +32,8 @@
         "removeComments": true,
         "moduleResolution": "node",
         "jsx": "react",
-        "baseUrl": "./src"
+        "baseUrl": "./src",
+        "lib": ["es5", "es6", "dom"]
     }
 >>>>>>> Add initial project structure with SSR for ReactJS
 }
