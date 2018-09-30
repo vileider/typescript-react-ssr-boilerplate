@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -55,16 +56,19 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 - [ ] Support hot reloading
 - [ ] Add testing tools (Jest ?)
 
+=======
+>>>>>>> Update readme and package files
 # Stack
 
-### This boilerplate use the following stack:
+### This boilerplate use the following tech stack:
 
 - TypeScript, as the main language used
 - Webpack, to bundle our source files
 - React, to build our UI
 - Redux, to manage the state of the app
-- Express, as a simple server to send the first view
-- Styled Components, to style our React components
+- Express, as a simple server to render initial page
+- Material UI, as a component library
+- JSS, to style our components
 
 >>>>>>> Update readme
 # Installation
