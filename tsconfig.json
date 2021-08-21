@@ -1,39 +1,16 @@
 {
-<<<<<<< HEAD
   "compilerOptions": {
     "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "noFallthroughCasesInSwitch": true,
-    "module": "esnext",
+    "module": "es6",
+    "noImplicitAny": true,
+    "removeComments": true,
     "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react-jsx"
-  },
-  "include": [
-    "src"
-  ]
-=======
-    "compilerOptions": {
-        "target": "es5",
-        "module": "es6",
-        "noImplicitAny": true,
-        "removeComments": true,
-        "moduleResolution": "node",
-        "jsx": "react",
-        "baseUrl": "./src",
-        "lib": ["es5", "es6", "dom"]
-    }
->>>>>>> Add initial project structure with SSR for ReactJS
+    "jsx": "react",
+    "baseUrl": "./src",
+    "lib": [
+      "es5",
+      "es6",
+      "dom"
+    ]
+  }
 }
