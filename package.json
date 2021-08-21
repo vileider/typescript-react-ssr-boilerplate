@@ -1,81 +1,37 @@
 {
-<<<<<<< HEAD
-  "name": "shop-in-typescript",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "@types/jest": "^26.0.15",
-    "@types/node": "^12.0.0",
-    "@types/react": "^17.0.0",
-    "@types/react-dom": "^17.0.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
-    "typescript": "^4.1.2",
-    "web-vitals": "^1.0.1"
-  },
+  "name": "typescript-react-ssr-boilerplate",
+  "version": "0.5.0",
+  "license": "MIT",
+  "author": "thomasrogerlux@outlook.fr",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build-dev": "webpack --watch",
+    "build": "webpack",
+    "start-dev": "nodemon build/server.js",
+    "start": "node build/server.js"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "dependencies": {
+    "@material-ui/core": "^4.12.3",
+    "express": "^4.16.3",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-jss": "^8.6.1",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.0"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "devDependencies": {
+    "@types/express": "^4.16.0",
+    "@types/node": "^10.11.3",
+    "@types/react": "^16.4.1",
+    "@types/react-dom": "^16.0.6",
+    "@types/react-jss": "^8.6.0",
+    "@types/react-redux": "^6.0.2",
+    "@types/react-router-dom": "^4.3.1",
+    "nodemon": "^2.0.12",
+    "ts-loader": "^4.4.1",
+    "typescript": "^2.9.2",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^3.0.8",
+    "webpack-node-externals": "^1.7.2"
   }
-=======
-    "name": "typescript-react-ssr-boilerplate",
-    "version": "0.5.0",
-    "license": "MIT",
-    "author": "thomasrogerlux@outlook.fr",
-    "scripts": {
-        "build-dev": "webpack --watch",
-        "build": "webpack",
-        "start-dev": "nodemon build/server.js",
-        "start": "node build/server.js"
-    },
-    "dependencies": {
-        "@material-ui/core": "^4.12.3",
-        "express": "^4.16.3",
-        "react": "^16.4.1",
-        "react-dom": "^16.4.1",
-        "react-jss": "^8.6.1",
-        "react-redux": "^5.0.7",
-        "react-router-dom": "^4.3.1",
-        "redux": "^4.0.0"
-    },
-    "devDependencies": {
-        "@types/express": "^4.16.0",
-        "@types/node": "^10.11.3",
-        "@types/react": "^16.4.1",
-        "@types/react-dom": "^16.0.6",
-        "@types/react-jss": "^8.6.0",
-        "@types/react-redux": "^6.0.2",
-        "@types/react-router-dom": "^4.3.1",
-        "nodemon": "^2.0.12",
-        "ts-loader": "^4.4.1",
-        "typescript": "^2.9.2",
-        "webpack": "^5.51.1",
-        "webpack-cli": "^3.0.8",
-        "webpack-node-externals": "^1.7.2"
-    }
->>>>>>> Add initial project structure with SSR for ReactJS
 }
